@@ -1,0 +1,67 @@
+{
+  "artist": {
+    "name": "Ganoderma",
+    "avatar": "/images/black.jpg",
+    "shortBio": "Artist",
+    "socials": [
+      {
+        "icon": "FaHome",
+        "url": "https://2375874438.wixsite.com/lucid-ganoderma"
+      },
+      { "icon": "FaTwitter", "url": "https://twitter.com/ganoderma_j" },
+      {
+        "icon": "FaGithub",
+        "url": "https://github.com/GanodermaJ/Gost-ar-gallery"
+      },
+      {
+        "icon": "FaLinkedin",
+        "url": "https://www.linkedin.com/in/%E8%8A%9D-%E7%81%B5-62b13622a/"
+      }
+    ]
+  },
+  "project": {
+    "name": "AR Gallery Example"
+  },
+  "models": [
+    {
+      "name": "Red Eye Gost",
+      "glbFile": "/assets/Gost_RedEyes.glb",
+      "attributes": [
+        { "trait_type": "shape", "value": "Gost" },
+        { "trait_type": "size", "value": "small" },
+        { "trait_type": "color", "value": "White" },
+        { "trait_type": "material", "value": "Basic" }
+      ]
+    },
+    {
+      "name": "gost_White",
+      "glbFile": "/assets/gost_White.glb",
+      "attributes": [
+        { "trait_type": "shape", "value": "Gost" },
+        { "trait_type": "size", "value": "small" },
+        { "trait_type": "color", "value": "Emission" },
+        { "trait_type": "material", "value": "Basic" }
+      ]
+    },
+    {
+      "name": "Blue Gost",
+      "glbFile": "/assets/gost_Blue.glb",
+      "attributes": [
+        { "trait_type": "shape", "value": "Gost" },
+        { "trait_type": "size", "value": "small" },
+        { "trait_type": "color", "value": "Blue" },
+        { "trait_type": "material", "value": "Basic" }
+      ]
+    },
+    {
+      "name": "Purple Gost",
+      "glbFile": "/assets/gost_Purple.glb",
+      "attributes": [
+        { "trait_type": "shape", "value": "Purple" },
+        { "trait_type": "size", "value": "small" },
+        { "trait_type": "color", "value": "Purple & Orange" },
+        { "trait_type": "material", "value": "Basic" }
+      ]
+    }
+  ]
+}
